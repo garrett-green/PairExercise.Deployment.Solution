@@ -17,6 +17,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log('This app is dope.')
     return <UserList users={this.state.users} />
   }
 }
